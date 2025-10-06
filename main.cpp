@@ -263,3 +263,48 @@ using namespace std;
 
 
 // Problem 13
+//
+// int febDays(int year) {
+//     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+//         return 29;
+//     } else {
+//         return 28;
+//     }
+// }
+//
+// int main() {
+//     cout << "Year\tDays in February" << endl;
+//     cout << "---------------------" << endl;
+//
+//     for (int year = 1985; year >= 1983; year--) {
+//         cout << year << "\t" << febDays(year) << endl;
+//     }
+// }
+
+
+// Problem 15
+//
+// void printASCII(char ch1, char ch2, int numberPerLine) {
+//     int count = 0;
+//
+//     for (char ch = ch1; ch <= ch2; ch++) {
+//         cout << ch << " ";
+//         count++;
+//
+//         if (count % numberPerLine == 0) {
+//             cout << endl;
+//         }
+//     }
+//
+//     if (count % numberPerLine != 0) {
+//         cout << endl;
+//     }
+// }
+//
+// int main() {
+//     cout << "ASCII values from 'a' to 'm': " << endl;
+//     printASCII('a', 'm', 6);
+//
+//     return 0;
+// }
+
