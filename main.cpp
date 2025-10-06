@@ -367,6 +367,3 @@ using namespace std;
 //         number++;
 //     }
 // }
-
-
-// Problem 17
