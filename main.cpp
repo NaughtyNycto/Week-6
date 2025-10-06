@@ -206,6 +206,25 @@ using namespace std;
 // }
 
 
+// Problem 10
+//
+// int trig(int m) {
+//     return (m * (m + 1) )/ 2;
+// }
+//
+// int main() {
+//     cout << "First 75 triangular numbers:" << endl;
+//
+//     for (int i = 1; i <= 75; i++) {
+//         cout << trig(i) << "   ";
+//
+//         if (i % 5 == 0) {
+//             cout << endl;
+//         }
+//     }
+// }
+
+
 // Problem 11
 //
 // void displayEven(int number) {
@@ -308,3 +327,46 @@ using namespace std;
 //     return 0;
 // }
 
+
+// Problem 16
+//
+// int reverseNumber(int num) {
+//     int reversed = 0;
+//
+//     while (num != 0) {
+//         reversed = reversed * 10 + (num % 10);
+//         num = num / 10;
+//     }
+//
+//     return reversed;
+// }
+//
+// bool isPalindrome(int num) {
+//     return num == reverseNumber(num);
+// }
+//
+// bool isEven(int num) {
+//     return num % 2 == 0;
+// }
+//
+// int main() {
+//     int count = 0;
+//     int number = 2;
+//
+//     cout << "First 50 even palindrome numbers:" << endl;
+//
+//     while (count < 50) {
+//         if (isEven(number) && isPalindrome(number)) {
+//             cout << number << "   ";
+//             count++;
+//
+//             if (count % 5 == 0) {
+//                 cout << endl;
+//             }
+//         }
+//         number++;
+//     }
+// }
+
+
+// Problem 17
